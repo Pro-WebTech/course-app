@@ -12,7 +12,9 @@ import { throwIfAlreadyLoaded } from './module-import-guard';
 @NgModule({
   imports: [
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpServerModule,
+    BrowserServersModule
   ],
   declarations: [],
   providers: [
